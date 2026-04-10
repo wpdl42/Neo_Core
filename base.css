@@ -1,0 +1,135 @@
+/* 제목용 글자 폰트 */
+
+@font-face {
+  font-family: "KakaoBig";
+  font-weight: 400;
+  src: url("https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig-Regular-v1.0.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "KakaoBig";
+  font-weight: 500;
+  src: url("https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig-Bold-v1.0.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "KakaoBig";
+  font-weight: 700;
+  src: url("https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig-Bold-v1.0.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "KakaoBig";
+  font-weight: 800;
+  src: url("https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig_ExtraBold_OTF.woff2")
+    format("woff2");
+}
+
+/* 본문용 글자 폰트 */
+
+@font-face {
+  font-family: "KakaoSmall";
+  font-weight: 300;
+  src: url("https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall-Light-v1.0.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "KakaoSmall";
+  font-weight: 400;
+  src: url("https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall-Regular-v1.0.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "KakaoSmall";
+  font-weight: 500;
+  src: url("https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall-Regular-v1.0.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "KakaoSmall";
+  font-weight: 700;
+  src: url("https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall_Bold_OTF.woff2")
+    format("woff2");
+}
+
+:root {
+  --font-heading: "KakaoBig", sans-serif;
+
+  --font-body: "KakaoSmall", sans-serif;
+
+  --fw3: 300;
+  --fw4: 400;
+  --fw5: 500;
+  --fw7: 700;
+  --fw8: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "KakaoSmall", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: black;
+  background-color: white;
+}
+
+main {
+  flex-grow: 1;
+  padding-top: clamp(72px, 8vw, 84px);
+}
+
+strong {
+  font-weight: var(--fw8);
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "KakaoBig", sans-serif;
+}

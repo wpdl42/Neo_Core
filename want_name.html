@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="main_header.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>NeoCore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- header -->
+    <input type="checkbox" id="menu-trigger" class="menu-checkbox" />
+    <input type="checkbox" id="icon-toggle" class="icon-checkbox" />
+
+    <header class="header">
+      <div class="inner">
+        <h1 class="logo">
+          <a href="index.html">NeoCore</a>
+        </h1>
+        <nav class="menu icon_menu">
+          <ul>
+            <li><a href="#">팀 소개</a></li>
+            <li><a href="#">AI 역사</a></li>
+            <li>
+              <a href="#">AI 보안</a>
+            </li>
+            <li>
+              <a href="#">AI 생활</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="icon_menu">
+          <label for="icon-toggle">
+            <i class="ri-moon-line icon-moon"></i>
+            <i class="ri-sun-line icon-sun"></i>
+          </label>
+
+          <label for="menu-trigger" class="hamburger-bar">
+            <i class="ri-menu-line"></i>
+          </label>
+        </nav>
+      </div>
+    </header>
+    <!-- 미니 메뉴 -->
+    <nav class="menu_small">
+      <div class="menu-control">
+        <label for="icon-toggle">
+          <i class="ri-moon-line icon-moon"></i>
+          <i class="ri-sun-line icon-sun"></i>
+        </label>
+
+        <label for="menu-trigger" class="close-btn">
+          <i class="ri-close-large-line"></i>
+        </label>
+      </div>
+
+      <ul>
+        <li>
+          <a href="#">팀 소개</a>
+        </li>
+        <li>
+          <a href="#">AI 역사</a>
+        </li>
+        <li>
+          <a href="#">AI 보안</a>
+        </li>
+        <li>
+          <a href="#">AI 생활</a>
+        </li>
+      </ul>
+    </nav>
+    <label for="menu-trigger" class="menu-overlay"></label>
+
+    <main>
+      <!-- 여기에 만들어 주세요. -->
+    </main>
+  </body>
+</html>
