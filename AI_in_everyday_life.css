@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, #dcdcdc, #ffffff);
+  color: #111827;
+}
+
+.AI_life {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.AI_life h1 {
+  text-align: center;
+  font-family: 'Exo 2', sans-serif !important;
+  font-size: 3rem;
+  transition: 3s;
+} /* 폰트 왜 안바껴*/
+
+.AI_life:hover h1 {
+  cursor: pointer;
+  font-size: 80px;
+  color: #0d1a26;
+}
+
+.AI_life p {
+  text-align: center;
+  color: #4b5563;
+}
+
+.cardbox {
+  display: flex;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  gap: 30px;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.cardbox:hover {
+  transform: translateY(-5px);
+}
