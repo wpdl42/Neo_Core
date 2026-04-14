@@ -1,0 +1,68 @@
+.security-page {
+  padding: 100px 20px;
+}
+
+.security-page .hero {
+  text-align: center;
+  padding: 100px 20px;
+  border-radius: 20px;
+  background: linear-gradient(to right, black);
+  color: white;
+}
+.security-page .hero-card {
+  text-align: center;
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  background: white;
+  margin: auto;
+  color: black;
+}
+.security-page .section {
+  margin: 60px 0;
+  text-align: center;
+}
+
+.security-page .card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.security-page .card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  background: white;
+}
+
+.security-page .card:hover {
+  transform: translateY(-10px);
+}
+.security-page .box {
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 20px;
+  background: black;
+}
+.icon-checkbox:checked ~ main {
+  background-color: black;
+  color: white;
+}
+.icon-checkbox:checked ~ main .card {
+  background: black;
+  color: white;
+}
+.icon-checkbox:checked ~ main .box {
+  background-color: white;
+  color: black;
+}
+.icon-checkbox:checked ~ main .hero {
+  background: white;
+  color: black;
+}
+.icon-checkbox:checked ~ main .hero-card {
+  background: black;
+  color: white;
+}
