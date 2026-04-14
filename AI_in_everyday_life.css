@@ -13,12 +13,12 @@ body {
   text-align: center;
   font-family: 'Exo 2', sans-serif !important;
   font-size: 3rem;
-  transition: 3s;
+  transition: 2s;
 } /* 폰트 왜 안바껴*/
 
 .AI_life:hover h1 {
   cursor: pointer;
-  font-size: 80px;
+  font-size: 70px;
   color: #0d1a26;
 }
 
