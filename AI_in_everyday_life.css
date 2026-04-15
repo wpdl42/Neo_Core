@@ -166,7 +166,7 @@ th,
 td {
   padding: 10px;
   text-align: center;
-  border: 2px solid rgb(221, 221, 231);
+  border: 2px solid var(--table-header);
 }
 
 th {
