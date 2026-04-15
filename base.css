@@ -57,7 +57,6 @@
   src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall_Bold_OTF.woff2')
     format('woff2');
 }
-
 :root {
   --font-heading: 'KakaoBig', sans-serif;
 
