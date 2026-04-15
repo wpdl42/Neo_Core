@@ -20,7 +20,7 @@
 
 :root {
   --bg-main: #ffffff;
-  --bg-card: linear-gradient(to bottom, #ffffff, #cecee5);
+  --bg-card: linear-gradient(to bottom, #ffffff, #ddddf4);
   --text-main: #111827;
   --text-sub: #4b5563;
   --card-text: #374151;
@@ -140,7 +140,7 @@ img {
   color: var(--card-text);
 }
 
-ul {
+.tech_list {
   list-style-type: disc;
 }
 
