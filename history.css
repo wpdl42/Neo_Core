@@ -1,0 +1,166 @@
+.flex-container {
+  display: flex;
+  background-color: rgb(214, 214, 214);
+  flex-wrap: wrap;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 100px;
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+
+  flex: 300px;
+}
+/* AI 역사 글자 가운데 정렬 */
+.jaymoc {
+  text-align: center;
+}
+/* 글자 사이즈, 호버링시 범위를 글자에 한정시키기 */
+h1 {
+  display: inline-block;
+  font-size: 50px;
+  margin-bottom: 20px;
+  transition: color 0.5s ease;
+  font-weight: bold;
+  transition: transform 0.5s ease;
+}
+
+h1:hover {
+  color: rgb(157, 157, 157);
+  transition: transform 0.5s ease;
+  transform: scale(1.1);
+}
+
+.flex-container div {
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+
+.move-box {
+  text-align: center;
+  width: 300px;
+  height: 150px;
+  background-color: #9d9d9d;
+  transition: transform 0.5s ease; /* 상태 변화 시 부드럽게 */
+}
+
+.move-box:hover {
+  transform: scale(1.1); /* hover 시 확대 */
+}
+
+@media (min-width: 600px) {
+  .ai_history {
+    grid-area: 1 / span 6;
+  }
+  .move-box {
+    grid-area: 2 / span 1;
+  }
+  .flex-container {
+    grid-area: 2 / span 4;
+  }
+  .facts {
+    grid-area: 3 / span 6;
+  }
+  .footer {
+    grid-area: 4 / span 6;
+  }
+}
+
+@media (min-width: 768px) {
+  .ai_history {
+    grid-area: 1 / span 6;
+  }
+  .move-box {
+    grid-area: 2 / span 1;
+  }
+  .flex-container {
+    grid-area: 2 / span 4;
+    flex-direction: row;
+  }
+  .facts {
+    grid-area: 2 / span 1;
+  }
+  .footer {
+    grid-area: 3 / span 6;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'ai_history'
+    'move-box'
+    'flex-container'
+    'fac'
+    'foo';
+  background-color: white;
+  gap: 10px;
+}
+
+.ai_history {
+  grid-area: ai_history;
+  background-color: purple;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ai_history > h1 {
+  font-size: 40px;
+}
+
+.move-box {
+  grid-area: move-box;
+}
+
+.move-box ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.move-box li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+}
+
+.move-box li:hover {
+  background-color: #0099cc;
+}
+
+.content {
+  grid-area: main;
+}
+
+.content > h1 {
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+
+.content > p {
+  margin-bottom: 7px;
+}
+
+.fac {
+  grid-area: fac;
+  border: 1px solid #0099cc;
+  background-color: beige;
+  padding: 10px;
+}
+
+.fac > h2 {
+  font-size: 20px;
+}
+
+.fac li {
+  margin-bottom: 5px;
+}
+
+.foo {
+  grid-area: foo;
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+}
