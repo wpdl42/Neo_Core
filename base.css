@@ -1,74 +1,19 @@
-/* 제목용 글자 폰트 */
+/*!!!!!!!!html 문서 안에 <head></head> 넣어주세요!!!!!!!!!!!
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Black+Han+Sans&family=Bungee&family=Bungee+Spice&family=Coming+Soon&family=Doto:wght@100..900&family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Gaegu&family=Jua&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Orbitron:wght@400..900&family=Rubik+Lines&family=Rubik+Mono+One&family=Science+Gothic:wght@100..900&family=Sixtyfour:SCAN@50&family=Walter+Turncoat&family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+*/
 
-/*@font-face {
-  font-family: 'KakaoBig';
-  font-weight: 400;
-  src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig-Regular-v1.0.woff2')
-    format('woff2');
-}
+/*제목용 멋진 폰트 (css에서 사용하심 됩니다)
+  font-family: 'Bungee', sans-serif;
+*/
 
-@font-face {
-  font-family: 'KakaoBig';
-  font-weight: 500;
-  src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig-Bold-v1.0.woff2')
-    format('woff2');
-}
-
-@font-face {
-  font-family: 'KakaoBig';
-  font-weight: 700;
-  src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig-Bold-v1.0.woff2')
-    format('woff2');
-}
-
-@font-face {
-  font-family: 'KakaoBig';
-  font-weight: 800;
-  src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig_ExtraBold_OTF.woff2')
-    format('woff2');
-}
-
-/* 본문용 글자 폰트 */
-
-/*@font-face {
-  font-family: 'KakaoSmall';
-  font-weight: 300;
-  src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall-Light-v1.0.woff2')
-    format('woff2');
-}
-
-@font-face {
-  font-family: 'KakaoSmall';
-  font-weight: 400;
-  src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall-Regular-v1.0.woff2')
-    format('woff2');
-}
-
-@font-face {
-  font-family: 'KakaoSmall';
-  font-weight: 500;
-  src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall-Regular-v1.0.woff2')
-    format('woff2');
-}
-
-@font-face {
-  font-family: 'KakaoSmall';
-  font-weight: 700;
-  src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall_Bold_OTF.woff2')
-    format('woff2');
-}
-
-:root {
-  --font-heading: 'KakaoBig', sans-serif;
-
-  --font-body: 'KakaoSmall', sans-serif;
-
-  --fw3: 300;
-  --fw4: 400;
-  --fw5: 500;
-  --fw7: 700;
-  --fw8: 800;
-}
+/*본문용 귀여운 폰트 (css에서 사용하심 됩니다.)
+  font-family: 'Jua', sans-serif;
 */
 
 * {

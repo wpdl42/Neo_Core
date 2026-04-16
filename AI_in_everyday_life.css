@@ -1,18 +1,3 @@
-/*@font-face {
-  font-family: 'KakaoBig';
-  font-weight: 700;
-  src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig-Bold-v1.0.woff2')
-    format('woff2');
-}
-
-@font-face {
-  font-family: 'KakaoSmall';
-  font-weight: 500;
-  src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall-Regular-v1.0.woff2')
-    format('woff2');
-}
-*/
-
 .wrap {
   background: var(--bg-main);
   color: var(--text-main);
