@@ -1,6 +1,6 @@
 /* 제목용 글자 폰트 */
 
-@font-face {
+/*@font-face {
   font-family: 'KakaoBig';
   font-weight: 400;
   src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig-Regular-v1.0.woff2')
@@ -30,7 +30,7 @@
 
 /* 본문용 글자 폰트 */
 
-@font-face {
+/*@font-face {
   font-family: 'KakaoSmall';
   font-weight: 300;
   src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall-Light-v1.0.woff2')
@@ -57,6 +57,7 @@
   src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall_Bold_OTF.woff2')
     format('woff2');
 }
+
 :root {
   --font-heading: 'KakaoBig', sans-serif;
 
@@ -68,6 +69,7 @@
   --fw7: 700;
   --fw8: 800;
 }
+*/
 
 * {
   margin: 0;
@@ -95,6 +97,12 @@ img {
   max-width: 100%;
 }
 
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Bungee', sans-serif;
+}
+
 button {
   background-color: transparent;
   border: 0;
@@ -105,7 +113,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: 'KakaoSmall', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;

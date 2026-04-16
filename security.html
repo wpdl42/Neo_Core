@@ -11,137 +11,148 @@
       rel="stylesheet"
     />
     <title>NeoCore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Black+Han+Sans&family=Bungee&family=Bungee+Spice&family=Coming+Soon&family=Doto:wght@100..900&family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Gaegu&family=Jua&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&family=Orbitron:wght@400..900&family=Rubik+Lines&family=Rubik+Mono+One&family=Science+Gothic:wght@100..900&family=Sixtyfour:SCAN@50&family=Walter+Turncoat&family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <!-- header -->
     <input type="checkbox" id="menu-trigger" class="menu-checkbox" />
     <input type="checkbox" id="icon-toggle" class="icon-checkbox" />
+    <div class="wrap">
+      <header class="header">
+        <div class="inner">
+          <h1 class="logo">
+            <a href="main.html">NeoCore</a>
+          </h1>
+          <nav class="menu icon_menu">
+            <ul>
+              <li><a href="#">팀 소개</a></li>
+              <li><a href="history.html">AI 역사</a></li>
+              <li>
+                <a href="security.html">AI 보안</a>
+              </li>
+              <li>
+                <a href="AI_in_everyday_life.html">AI 생활</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="icon_menu">
+            <label for="icon-toggle">
+              <i class="ri-moon-line icon-moon"></i>
+              <i class="ri-sun-line icon-sun"></i>
+            </label>
 
-    <header class="header">
-      <div class="inner">
-        <h1 class="logo">
-          <a href="main.html">NeoCore</a>
-        </h1>
-        <nav class="menu icon_menu">
-          <ul>
-            <li><a href="#">팀 소개</a></li>
-            <li><a href="history.html">AI 역사</a></li>
-            <li>
-              <a href="security.html">AI 보안</a>
-            </li>
-            <li>
-              <a href="AI_in_everyday_life.html">AI 생활</a>
-            </li>
-          </ul>
-        </nav>
-        <nav class="icon_menu">
+            <label for="menu-trigger" class="hamburger-bar">
+              <i class="ri-menu-line"></i>
+            </label>
+          </nav>
+        </div>
+      </header>
+      <!-- 미니 메뉴 -->
+      <nav class="menu_small">
+        <div class="menu-control">
           <label for="icon-toggle">
             <i class="ri-moon-line icon-moon"></i>
             <i class="ri-sun-line icon-sun"></i>
           </label>
 
-          <label for="menu-trigger" class="hamburger-bar">
-            <i class="ri-menu-line"></i>
+          <label for="menu-trigger" class="close-btn">
+            <i class="ri-close-large-line"></i>
           </label>
-        </nav>
-      </div>
-    </header>
-    <!-- 미니 메뉴 -->
-    <nav class="menu_small">
-      <div class="menu-control">
-        <label for="icon-toggle">
-          <i class="ri-moon-line icon-moon"></i>
-          <i class="ri-sun-line icon-sun"></i>
-        </label>
+        </div>
 
-        <label for="menu-trigger" class="close-btn">
-          <i class="ri-close-large-line"></i>
-        </label>
-      </div>
+        <ul>
+          <li>
+            <a href="#">팀 소개</a>
+          </li>
+          <li>
+            <a href="history.html">AI 역사</a>
+          </li>
+          <li>
+            <a href="security.html">AI 보안</a>
+          </li>
+          <li>
+            <a href="AI_in_everyday_life.html">AI 생활</a>
+          </li>
+        </ul>
+      </nav>
+      <label for="menu-trigger" class="menu-overlay"></label>
 
-      <ul>
-        <li>
-          <a href="#">팀 소개</a>
-        </li>
-        <li>
-          <a href="history.html">AI 역사</a>
-        </li>
-        <li>
-          <a href="security.html">AI 보안</a>
-        </li>
-        <li>
-          <a href="AI_in_everyday_life.html">AI 생활</a>
-        </li>
-      </ul>
-    </nav>
-    <label for="menu-trigger" class="menu-overlay"></label>
+      <main class="security-page">
+        <section class="hero">
+          <div class="hero-card">
+            <h2>AI 보안 (AI Security)</h2>
+            <p>
+              인공지능 시스템을 보호하고, 공격을 방어하기 위한 기술을
+              의미합니다.
+            </p>
+          </div>
+        </section>
 
-    <main class="security-page">
-      <section class="hero">
-        <div class="hero-card">
-          <h2>AI 보안 (AI Security)</h2>
+        <section class="section">
+          <h2>🤖AI 보안이란?⚡</h2>
           <p>
-            인공지능 시스템을 보호하고, 공격을 방어하기 위한 기술을 의미합니다.
+            AI 보안은 데이터, 모델, 시스템을 보호하여 악의적인 공격으로부터
+            안전하게 유지하는 기술입니다.
           </p>
-        </div>
-      </section>
+        </section>
 
-      <section class="section">
-        <h3>AI 보안이란?</h3>
-        <p>
-          AI 보안은 데이터, 모델, 시스템을 보호하여 악의적인 공격으로부터
-          안전하게 유지하는 기술입니다.
-        </p>
-      </section>
-
-      <section class="section">
-        <h3>주요 공격 유형</h3>
-        <div class="box">
-          <div class="card-container">
-            <div class="card">
-              <h4>데이터 공격</h4>
-              <p>학습 데이터에 악성 데이터를 삽입하여 모델을 왜곡</p>
-            </div>
-            <div class="card">
-              <h4>적대적 공격</h4>
-              <p>이미지를 살짝 변형하여 AI가 잘못 인식하게 만듦</p>
-            </div>
-            <div class="card">
-              <h4>모델 탈취</h4>
-              <p>AI 모델을 복제하거나 정보를 빼내는 공격</p>
+        <section class="section">
+          <h2>⚔️주요 공격 유형💥</h2>
+          <div class="box">
+            <div class="card-container">
+              <div class="card">
+                <h3>데이터 공격</h3>
+                <p>학습 데이터에 악성 데이터를 삽입하여 모델을 왜곡</p>
+              </div>
+              <div class="card">
+                <h3>적대적 공격</h3>
+                <p>이미지를 살짝 변형하여 AI가 잘못 인식하게 만듦</p>
+              </div>
+              <div class="card">
+                <h3>모델 탈취</h3>
+                <p>AI 모델을 복제하거나 정보를 빼내는 공격</p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="section">
-        <h3>보안 대응 기술</h3>
-        <div class="box">
-          <div class="card-container">
-            <div class="card">
-              <h4>데이터 검증</h4>
-              <p>악성 데이터 제거 및 정제</p>
-            </div>
-            <div class="card">
-              <h4>모델 방어</h4>
-              <p>적대적 공격에 강한 모델 설계</p>
-            </div>
-            <div class="card">
-              <h4>접근 제어</h4>
-              <p>모델 접근 권한 제한</p>
+        <section class="section">
+          <h2>🛡️보안 대응 기술🔒</h2>
+          <div class="box">
+            <div class="card-container">
+              <div class="card">
+                <h3>데이터 검증</h3>
+                <p>악성 데이터 제거 및 정제</p>
+              </div>
+              <div class="card">
+                <h3>모델 방어</h3>
+                <p>적대적 공격에 강한 모델 설계</p>
+              </div>
+              <div class="card">
+                <h3>접근 제어</h3>
+                <p>모델 접근 권한 제한</p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="section">
-        <h3>AI 보안의 미래</h3>
-        <p>
-          AI 기술이 발전함에 따라 보안 기술도 함께 발전하며, 자동화된 보안
-          시스템이 중요해지고 있습니다.
-        </p>
-      </section>
-    </main>
+        <section class="section">
+          <h2>AI 보안의 미래</h2>
+          <p>
+            AI 기술이 발전함에 따라 보안 기술도 함께 발전하며, 자동화된 보안
+            시스템이 중요해지고 있습니다.
+          </p>
+        </section>
+      </main>
+      <footer>
+        Exploring the future with AI © 2026 NeoCore. All rights reserved.
+      </footer>
+    </div>
   </body>
 </html>
