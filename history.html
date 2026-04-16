@@ -19,78 +19,79 @@
     <!-- header -->
     <input type="checkbox" id="menu-trigger" class="menu-checkbox" />
     <input type="checkbox" id="icon-toggle" class="icon-checkbox" />
+    <div class="wrap">
+      <header class="header">
+        <div class="inner">
+          <h1 class="logo">
+            <a href="main.html">NeoCore</a>
+          </h1>
+          <nav class="menu icon_menu">
+            <ul>
+              <li><a href="#">팀 소개</a></li>
+              <li><a href="history.html">AI 역사</a></li>
+              <li>
+                <a href="security.html">AI 보안</a>
+              </li>
+              <li>
+                <a href="AI_in_everyday_life.html">AI 생활</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="icon_menu">
+            <label for="icon-toggle">
+              <i class="ri-moon-line icon-moon"></i>
+              <i class="ri-sun-line icon-sun"></i>
+            </label>
 
-    <header class="header">
-      <div class="inner">
-        <h1 class="logo">
-          <a href="main.html">NeoCore</a>
-        </h1>
-        <nav class="menu icon_menu">
-          <ul>
-            <li><a href="#">팀 소개</a></li>
-            <li><a href="history.html">AI 역사</a></li>
-            <li>
-              <a href="security.html">AI 보안</a>
-            </li>
-            <li>
-              <a href="AI_in_everyday_life.html">AI 생활</a>
-            </li>
-          </ul>
-        </nav>
-        <nav class="icon_menu">
+            <label for="menu-trigger" class="hamburger-bar">
+              <i class="ri-menu-line"></i>
+            </label>
+          </nav>
+        </div>
+      </header>
+      <!-- 미니 메뉴 -->
+      <nav class="menu_small">
+        <div class="menu-control">
           <label for="icon-toggle">
             <i class="ri-moon-line icon-moon"></i>
             <i class="ri-sun-line icon-sun"></i>
           </label>
 
-          <label for="menu-trigger" class="hamburger-bar">
-            <i class="ri-menu-line"></i>
+          <label for="menu-trigger" class="close-btn">
+            <i class="ri-close-large-line"></i>
           </label>
-        </nav>
-      </div>
-    </header>
-    <!-- 미니 메뉴 -->
-    <nav class="menu_small">
-      <div class="menu-control">
-        <label for="icon-toggle">
-          <i class="ri-moon-line icon-moon"></i>
-          <i class="ri-sun-line icon-sun"></i>
-        </label>
+        </div>
 
-        <label for="menu-trigger" class="close-btn">
-          <i class="ri-close-large-line"></i>
-        </label>
-      </div>
+        <ul>
+          <li>
+            <a href="#">팀 소개</a>
+          </li>
+          <li>
+            <a href="history.html">AI 역사</a>
+          </li>
+          <li>
+            <a href="security.html">AI 보안</a>
+          </li>
+          <li>
+            <a href="AI_in_everyday_life.html">AI 생활</a>
+          </li>
+        </ul>
+      </nav>
+      <label for="menu-trigger" class="menu-overlay"></label>
 
-      <ul>
-        <li>
-          <a href="#">팀 소개</a>
-        </li>
-        <li>
-          <a href="history.html">AI 역사</a>
-        </li>
-        <li>
-          <a href="security.html">AI 보안</a>
-        </li>
-        <li>
-          <a href="AI_in_everyday_life.html">AI 생활</a>
-        </li>
-      </ul>
-    </nav>
-    <label for="menu-trigger" class="menu-overlay"></label>
-
-    <main>
-      <!-- 여기에 만들어 주세요. -->
-      <div class="jaymoc">
-        <h1>AI 역사</h1>
-      </div>
-      <div class="flex-container">
-        <div class="move-box">AI의 시초</div>
-        <br />
-        <div class="move-box">AI의 발전</div>
-        <br />
-        <div class="move-box">AI의 미래</div>
-      </div>
-    </main>
+      <main>
+        <!-- 여기에 만들어 주세요. -->
+        <div class="jaymoc">
+          <h1>AI 역사</h1>
+        </div>
+        <div class="flex-container">
+          <div class="move-box">AI의 시초</div>
+          <br />
+          <div class="move-box">AI의 발전</div>
+          <br />
+          <div class="move-box">AI의 미래</div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>

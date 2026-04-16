@@ -4,6 +4,12 @@
   --header-ft-background-color: rgb(243, 243, 243);
 }
 
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Bungee', sans-serif;
+}
+
 .header {
   width: 100%;
   height: clamp(72px, 8vw, 89px); /* 헤더 높이 */
@@ -26,6 +32,7 @@
 .logo {
   display: flex;
   justify-content: flex-start; /* 로고는 왼쪽 정렬 */
+  font-family: 'Bungee', sans-serif;
 }
 
 .icon_menu {
@@ -106,16 +113,16 @@
 }
 
 /* 색변경 */
-.icon-checkbox:checked + .wrap .header {
-  --header-bg-color: black; /* 어두운 배경 */
+.icon-checkbox:checked ~ .wrap .header {
+  --header-bg-color: #05080e; /* 어두운 배경 */
   --header-ft-color: white; /* 밝은 글자 */
 }
 
-.icon-checkbox:checked + .wrap .header .icon-moon {
+.icon-checkbox:checked ~ .wrap .header .icon-moon {
   display: none;
 }
 
-.icon-checkbox:checked + .wrap .header .icon-sun {
+.icon-checkbox:checked ~ .wrap .header .icon-sun {
   display: inline-block;
   color: white;
 }
@@ -266,7 +273,7 @@
   }
 
   .icon-checkbox:checked ~ .wrap .menu_small {
-    background-color: black;
+    background-color: #05080e;
     --header-ft-color: white;
     --header-ft-background-color: rgb(51, 51, 51);
   }

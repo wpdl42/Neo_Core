@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: 'KakaoBig';
   font-weight: 700;
   src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoBig-Bold-v1.0.woff2')
@@ -11,6 +11,7 @@
   src: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/service/fonts/KakaoSmall-Regular-v1.0.woff2')
     format('woff2');
 }
+*/
 
 .wrap {
   background: var(--bg-main);
@@ -43,20 +44,21 @@
 h1 {
   font-size: 32px;
   font-weight: bold;
-  font-family: 'KakaoBig';
+  font-family: 'Bungee', sans-serif;
 }
 
 h2 {
   font-size: 24px;
   font-weight: bold;
-  font-family: 'KakaoBig';
+  font-family: 'Jua', sans-serif;
+  font-weight: 200;
 }
 
 body {
   margin: 0;
   background: var(--bg-main);
   color: var(--text-main);
-  font-family: 'KakaoSmall';
+  font-family: 'Jua', sans-serif;
 }
 
 .cardbox {
