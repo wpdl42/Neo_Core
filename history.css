@@ -51,7 +51,7 @@
   align-items: center;
   font-size: 50px;
   display: flex;
-
+  font-family: 'Bungee', sans-serif;
   transition: color 0.5s ease;
   font-weight: bold;
   transition: 1.5s;
@@ -113,8 +113,8 @@ footer {
   margin-top: 100px;
   color: #4b5563;
 }
-p {
+.move-box p {
   font-size: 18px;
   line-height: 1.6; /* 줄 간격 */
-  margin: 15px 0;
+  margin: 0;
 }
