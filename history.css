@@ -28,9 +28,6 @@
   --table-header: #1e293b;
   --table-hover: #334155;
 }
-.icon-checkbox:checked {
-  background: var(--bg-card); /* 체크 시 어두운 그라데이션으로 변경 */
-}
 
 .flex-container {
   display: flex;
