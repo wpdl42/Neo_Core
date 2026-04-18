@@ -287,8 +287,8 @@ h1 {
 
 
 
-
+/* 스크롤바 숨기기 추가 */
 ::-webkit-scrollbar {
-  display: none; /* 스크롤바 자체를 숨김 */
+  display: none; 
 }
 
