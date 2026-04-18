@@ -97,7 +97,7 @@
 
 .move-box:hover {
   transform: scale(1.02); /* hover 시 확대 */
-  box-shadow: #c7c7c7 0px 4px 18px 1px;
+  box-shadow: #473cab93 0px 4px 18px 1px;
 }
 
 .text42 {
@@ -111,12 +111,13 @@
   transition: box-shadow 0.5s ease;
 }
 .text42:hover {
-  box-shadow: #c7c7c7 0px 2px 18px 1px; 
+  box-shadow: #473cab93 0px 2px 18px 1px; 
   
 }
 
 .move-box h2 {
   font-style: bold ;
+  
 }
 .move-box p {
   font-size: 18px;
@@ -173,3 +174,38 @@ footer {
   margin-top: 100px;
   color: #4b5563;
 }
+
+
+/* @media (max-width: 768px) {
+  .move-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .move-box h1 {
+    order: 1;
+  }
+  .move-box p {
+    order: 2;
+  }
+} */
+/* 혹시 모르니 grid 사용 */
+
+ @media (max-width: 768px) {
+  .move-box {
+    display: grid;
+    grid-template-areas:
+      "title"
+      "text"; 
+    justify-items: center; 
+    text-align: center;
+  }
+
+  .move-box h1 {
+    grid-area: title;
+  }
+
+  .move-box p {
+    grid-area: text;
+  }
+}
+
