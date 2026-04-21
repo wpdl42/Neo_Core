@@ -7,7 +7,7 @@
 h1 {
   font-size: 32px;
   font-weight: bold;
-  font-family: "Bungee", sans-serif;
+  font-family: 'Bungee', sans-serif;
 }
 
 .header {
@@ -32,7 +32,7 @@ h1 {
 .logo {
   display: flex;
   justify-content: flex-start; /* 로고는 왼쪽 정렬 */
-  font-family: "Bungee", sans-serif;
+  font-family: 'Bungee', sans-serif;
 }
 
 .icon_menu {
@@ -285,7 +285,18 @@ h1 {
   }
 }
 
+<<<<<<< HEAD
 /* 스크롤바 숨기기 추가 */
 ::-webkit-scrollbar {
   display: none;
 }
+=======
+
+
+
+/* 스크롤바 숨기기 추가 */
+::-webkit-scrollbar {
+  display: none; 
+}
+
+>>>>>>> ee2e3bf13fd79d1de79fa9312c392decf9324ac5
