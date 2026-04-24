@@ -7,7 +7,7 @@
 h1 {
   font-size: 32px;
   font-weight: bold;
-  font-family: "Bungee", sans-serif;
+  font-family: 'Bungee', sans-serif;
 }
 
 .header {
@@ -32,7 +32,7 @@ h1 {
 .logo {
   display: flex;
   justify-content: flex-start; /* 로고는 왼쪽 정렬 */
-  font-family: "Bungee", sans-serif;
+  font-family: 'Bungee', sans-serif;
 }
 
 .icon_menu {
@@ -86,7 +86,7 @@ h1 {
   --header-ft-background-color: rgb(51, 51, 51);
 }
 
-.icon_menu label[for="icon-toggle"] {
+.icon_menu label[for='icon-toggle'] {
   font-size: 25px;
   padding: 10px;
   border-radius: 50%;
@@ -99,7 +99,7 @@ h1 {
   /* border: 1px solid red;  <- 이 주석을 풀어서 범위를 눈으로 확인해보세요! */
 }
 
-.icon_menu label[for="icon-toggle"]:hover {
+.icon_menu label[for='icon-toggle']:hover {
   background-color: var(--header-ft-background-color);
 }
 
@@ -185,7 +185,7 @@ h1 {
     color: var(--header-ft-color);
   }
 
-  .icon_menu label[for="icon-toggle"] {
+  .icon_menu label[for='icon-toggle'] {
     display: none;
   }
 

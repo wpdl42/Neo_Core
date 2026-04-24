@@ -59,7 +59,7 @@ body {
   text-align: center;
   font-size: 3rem;
   transition: 2s;
-} /* 폰트 왜 안바껴*/
+}
 
 .AI_life:hover h1 {
   cursor: pointer;
@@ -128,7 +128,7 @@ img {
 }
 
 .tech_list {
-  list-style-type: disc; 
+  list-style-type: disc;
 }
 
 .th2 {

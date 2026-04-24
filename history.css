@@ -2,9 +2,8 @@
   background: var(--bg-main);
   color: var(--text-main);
   min-height: 100vh;
-  margin: 0 ;
+  margin: 0;
   padding: 0;
-  
 }
 
 :root {
@@ -33,7 +32,6 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-  
 }
 
 .flex-container div {
@@ -56,7 +54,6 @@
   font-family: 'Bungee', sans-serif;
   transition: color 0.5s ease;
   transition: 1.5s;
-  
 }
 
 .jaymoc p {
@@ -66,9 +63,7 @@
   color: var(--text-sub);
 }
 
-
 .jaymoc h1:hover {
-  
   color: rgb(157, 157, 157);
   transition: 1.5s;
   transform: scale(1.1);
@@ -82,16 +77,17 @@
 /* 중요한 친구 */
 .move-box {
   background: var(--bg-card);
-  
+
   display: flex;
   text-align: center;
-  
+
   justify-content: center;
   align-items: center;
-  transition: transform 0.5s, box-shadow 0.7s ease; /* 상태 변화 시 부드럽게 */
-  
+  transition:
+    transform 0.5s,
+    box-shadow 0.7s ease; /* 상태 변화 시 부드럽게 */
 }
-.icon-checkbox:checked ~ .wrap .move-box  {
+.icon-checkbox:checked ~ .wrap .move-box {
   background: var(--bg-card); /* 체크 시 어두운 그라데이션으로 변경 */
 }
 
@@ -103,7 +99,7 @@
 .text42 {
   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
   background: var(--bg-card);
-  
+
   text-align: center;
 
   margin: 20px auto;
@@ -111,13 +107,11 @@
   transition: box-shadow 0.5s ease;
 }
 .text42:hover {
-  box-shadow: #473cab93 0px 2px 18px 1px; 
-  
+  box-shadow: #473cab93 0px 2px 18px 1px;
 }
 
 .move-box h2 {
-  font-style: bold ;
-  
+  font-style: bold;
 }
 .move-box p {
   font-size: 18px;
@@ -175,7 +169,6 @@ footer {
   color: #4b5563;
 }
 
-
 /* @media (max-width: 768px) {
   .move-box {
     display: flex;
@@ -190,13 +183,13 @@ footer {
 } */
 /* 혹시 모르니 grid 사용 */
 
- @media (max-width: 768px) {
+@media (max-width: 768px) {
   .move-box {
     display: grid;
     grid-template-areas:
-      "title"
-      "text"; 
-    justify-items: center; 
+      'title'
+      'text';
+    justify-items: center;
     text-align: center;
   }
 
@@ -208,4 +201,3 @@ footer {
     grid-area: text;
   }
 }
-

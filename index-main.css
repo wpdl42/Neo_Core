@@ -54,7 +54,7 @@ section {
 .team-container img {
   height: 250px;
   width: 250px;
-  filter: grayscale(1);
+  filter: grayscale(1); /* 흑백 효과 */
   border-radius: 50%;
   margin: 0 auto;
 }
@@ -68,7 +68,7 @@ section {
 .team-container {
   display: flex;
   display: grid;
-  grid-template-areas: "card-1 card-2 card-3 card-4";
+  grid-template-areas: 'card-1 card-2 card-3 card-4';
   width: 75%;
   margin: auto;
   padding-bottom: 100px;
@@ -116,17 +116,17 @@ section {
 @media (max-width: 1300px) {
   .team-container {
     grid-template-areas:
-      "card-1 card-2"
-      "card-3 card-4";
+      'card-1 card-2'
+      'card-3 card-4';
   }
 }
 
 @media (max-width: 700px) {
   .team-container {
     grid-template-areas:
-      "card-1"
-      "card-2"
-      "card-3"
-      "card-4";
+      'card-1'
+      'card-2'
+      'card-3'
+      'card-4';
   }
 }
